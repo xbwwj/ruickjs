@@ -1,3 +1,10 @@
 [workspace]
 resolver = "2"
-members = ["crates/ruickjs", "crates/ruickjs-core", "crates/ruickjs-macros"]
+members = [
+  "crates/ruickjs",
+  "crates/ruickjs-core",
+  "crates/ruickjs-macros"
+]
+
+[workspace.dependencies]
+rquickjs-sys = "0.14.0"
